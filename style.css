@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('media/fundo.webp');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+header {
+    background-color: #f9f9f9;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.recipe-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.recipe {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.recipe img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.recipe h3 {
+    margin: 10px 0;
+}
+
+.recipe p {
+    color: #666;
+}
+
+.recipe a {
+    text-decoration: none;
+    color: #8b0000;
+    font-weight: bold;
+}
+
+.recipe a:hover {
+    text-decoration: underline;
+}
+
+.teste {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px auto;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header footer a {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+header footer {
+    display: inline-block;
+    margin-right: 15px;  /* Adiciona espaço entre os links */
+}
+
+header footer:last-child {
+    margin-right: 0;  /* Remove a margem do último link */
+}
+
+footer a:hover {
+    background-color: #ddd;
+}
+
+
+
+
+
